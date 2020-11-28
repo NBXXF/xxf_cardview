@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--  阴影颜色设置,不能随便动  for -->
+    <style name="CardView_BaseStyle">
+        <item name="shadow_endColor">#CCF7F7F7</item>
+        <item name="shadow_startColor">@android:color/transparent</item>
+        <item name="shadow_topDelta">0</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <style name="CardView_Corner_8_Bg_C12" parent="CardView_BaseStyle">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+</resources>
